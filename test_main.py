@@ -12,4 +12,4 @@ def test_hello():
     response = client.get("/hello")
 
     assert response.status_code == 200
-    assert response.json() == {"message": "BUGGY VERSION"}
+    assert response.json() == {"message": "Hello from CI/CD"}
